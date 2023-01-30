@@ -99,35 +99,28 @@ body {
         display: flex;
         gap: 15px;
      }
-
      .explore__menu__container {
-         position: realtive;
+        position: relative;
      }
-
-
-.explore__menu__gradient__bg {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-image: linear-gradient(
-       to right,
-       #ff512f 0%,
-       #dd2476 51%,
-       #ff512f 100%
-   );
-   z-index: -3;
-   transform: skewY(-5deg);
-}
-    
-
+     .explore__menu__gradient__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+        z-index: -3;
+        transform: skewY(-5deg);
+     }
     #pizza__card {
         margin-top:-20px ;
     margin-bottom: 30px;
     }
-
-
     .navbar {
         justify-content: space-between;
         padding: 10px 30px;
@@ -148,27 +141,6 @@ body {
         display: flex;
         gap: 25px;
      }
-
-     .explore__menu__container {
-         position: realtive;
-     }
-
-
-.explore__menu__gradient__bg {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-image: linear-gradient(
-       to right,
-       #ff512f 0%,
-       #dd2476 51%,
-       #ff512f 100%
-   );
-   z-index: -3;
-   transform: skewY(-5deg);
-}
      .container{
         max-width: 70%;
         
