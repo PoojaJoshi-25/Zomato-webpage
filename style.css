@@ -61,7 +61,7 @@ body {
 
 .hero__text {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 35px;
     margin: 20px ;
     color:#1d3557;
 }
@@ -88,10 +88,148 @@ body {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 35px;
     font-weight: 800;
     color: #1d3557;
 }
 
+
+.third_button {
+    padding: 15px;
+}
+.order_text {
+    font-size: 24px;
+    margin:10px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.reso {
+    width: 100%;
+    
+    
+}
+
+.chairs {
+    display: flex;
+    margin-top:30px;
+    gap: 3.5px;
+   
+
+}
+ .restaurant3{
+    width: 1900%;
+    margin-bottom: -10px;
+    display: flex;
+    margin-top: 1px;
+ }
+    
+
+.restaurant2{
+    margin-top: -80px; 
+display:flex;
+margin-bottom: 2px;
+    width: 1600%;
+
+}
+
+.restaurant{
+    width:100%;
+    
+    
+}
+
+.new {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.restaurant3 {
+    margin-bottom: -60px;
+    
+}
+
+.stayup {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.email {
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.up {
+    display:flex;
+    width: 100%;
+}
+
+.inpemail {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border-color: #f98fbf;
+    background-color: #fff4f9;
+    width: 250px;
+}
+
+.happy img{
+    border-radius: 10px;
+    
+}
+
+.happy {
+    padding-top: 60px;
+    position:relative; 
+}
+
+.happy_img {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: #ebf2ff;
+    text-align:center;
+    transform: translate(-30%,-50%);  /*aligns accurately at center*/
+    font-weight:600;
+    font-size: 25px;
+}
+
+.happy stomach {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.zomo {
+    
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    border-radius: 10px;
+     color: #ebf2ff;
+     padding: 40px;
+
+}
+
+.zomo h1 {
+    text-align: center;
+    font-size: 800;
+    font-size: 85px;
+}
+
+
+ .lis {
+    padding: 30px;
+    margin: 10px;
+    font-size: 21px;
+    font-weight: 800px;
+}
 @media (min-width: 768px) {
 
     .explore__menu__list {
